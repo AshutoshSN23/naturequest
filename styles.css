@@ -1,0 +1,280 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Updated to use the same background color */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+header {
+    border-bottom: 2px solid #28a745;
+    background-color: #28a745; /* Added background color to header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white; /* Ensures header text is white */
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #fff !important; /* Ensures nav links are white */
+}
+
+.nav-link:hover {
+    color: #155724 !important;
+}
+
+/* Intro Section */
+#intro {
+    margin-bottom: 2em;
+}
+
+#intro h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#intro p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Featured Games Section */
+#featured-games {
+    margin-top: 2em;
+}
+
+#featured-games h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(180deg, #e6ffe6, #ccffcc);
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 2.5em;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about button {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#about button:hover {
+    background-color: #218838;
+}
+
+/* Login Form Styles */
+#login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form h2 {
+    margin-bottom: 1em;
+}
+
+#login-form .form-group {
+    margin-bottom: 1em;
+}
+
+#login-form .btn {
+    background-color: #28a745;
+    border: none;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    text-align: center;
+    width: 22%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.info-box .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.info-box h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #005b96;
+}
+
+.info-box p {
+    margin: 0;
+    color: #666;
+}
+
+.contact-form {
+    background-color: #b3e0ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #005b96;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #005b96;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #004a7c;
+}
+
+/* Footer Styles */
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.foot-panel1 {
+    background-color: #37475A;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel2 {
+    background-color: #222F3D;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.foot-panel2 a {
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+
+.bin-img1 img,
+.bin-img2 img,
+.bin-img3 img {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0F1111;
+    color: white;
+    height: 40px;
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    padding-top: 5px;
+}
+
+.bin-img {
+    height: 25px;
+    width: 15px;
+}
+
+.Hello {
+    width: 100%;
+}
+
